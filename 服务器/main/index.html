@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="stiles.css">
+	<title>タイトル</title>
+	<link rel="icon" type="image/png" href="../favicon.png">
+	<link rel="apple-touch-icon" href="../favicon.png" sizes="180x180">
+	<meta name="author" content="作者">
+	<meta name="description" content="説明">
+	<meta property="og:title" content="共有された時のタイトル">
+	<meta property="og:description" content="共有された時の説明">
+	<meta property="og:site_name" content="共有された時のタイトル">
+	<meta property="og:url" content="ページのURL">
+	<meta property="og:image" content="sns.png">
+	<!--SNSでシェアされた際に表示する画像を指定します。Fecebook では、1200×630 以上、8MB 以下、縦横比 1.91:1 の画像を推奨していますog:url同様に絶対パスで記述する必要があります。-->
+	<meta property="og:locale" content="ja_JP">
+	<meta property="og:type" content="website">
+	<!--TOPページ以外は”article“-->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@名前">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+<style>
+body {
+	margin: 0;
+	padding: 0;
+	background: #000;
+	font-family: "Shippori Mincho B1", serif;
+}
+header {
+	padding: 1em 0;
+	width: 100%;
+	position: fixed;
+	text-align: center;
+	background-color: #fff;
+	opacity: .5;
+}
+.home a {
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 3em;
+	color: #f00;
+	&:before {
+		content: "タイトル";
+	}
+}
+.table {
+	padding: 0;
+	& li {
+		margin: 0 0.5em;
+		display: inline-block;
+		& a {
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 1em;
+			&:link, &:visited {
+				color: #000;
+			}
+			&:hover, &:active {
+				color: #e3b0ca;
+			}
+		}
+		.a:before {
+			content: "1";
+		}
+		.b:before {
+			content: "2";
+		}
+		.c:before {
+			content: "3";
+		}
+		.d:before {
+			content: "4";
+		}
+	}
+}
+main a {
+	margin: initial;
+	text-decoration: none;
+	font-weight: bold;
+	&:link, &:visited {
+		color: #e3b0ca;
+	}
+	&:hover, &:active {
+		text-decoration: underline;
+		color: #ffd700;
+	}
+}
+footer {
+	padding: 2em 0;
+	width: 100%;
+	height: 10%;
+	top: 100%;
+	right: 0%;
+	position: absolute;
+	text-align: center;
+	background-color: #cab64a;
+	& p {
+		color: #fff;
+	}
+}
+</style>
+</head>
+<body>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@500&display=swap" rel="stylesheet">
+<main>
+	<div id="top-screen">
+		<div class="title">
+			<h1>タイトル</h1>
+			<span>説明</span>
+		</div>
+	</div>
+	<div id="content">
+		<a href="https://www.google.com">google</a>
+		
+		<p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<p>テキスト</p>
+		<div class="youtube">
+			<iframe width="731" height="411" src="https://www.youtube.com/embed/p0jJeYX37rg" title="Google アプリ｜Google レンズやってみよう by MISAMO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+		</div>
+		<footer>
+			<a rel="noreferrer noopener" target="_blank" href="https://x.com/"><img title="X" src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAAAAABWESUoAAAA3ElEQVR4Ac2SGQDFMBBE1ylOcYpTner0neK0TnGpU53iFKc6xWl+p+f25D7InZ295Cv0mGjFUOzWDVVVa/WykaBiaBBFfsiyory3JASRjs8mInqxUGRw47CIBIy7Ew0Sh0nED4OXCwkNh8h7GrrgCkVK9a7w6Q2BjoVa6Oo9EZEDVJ7I1M4UeMDXzIEhvoukFxNMaP8o4gpon1l9qnqc7DcPIgpd7Ce0t/fJVO0q0qIsVeuY1XwNYK1gwm8J2GAqvHRF5mD7BcG0Rl6yegjw0BqdakE8Bni0RyjyDf4Y1Y0n0wNT4wAAAABJRU5ErkJggg=="></a>
+			<a rel="noreferrer noopener" target="_blank" href="https://www.youtube.com/"><img title="youtube" src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAA3ElEQVR4Ae2WIQzDIBBFEdPV6Ip6L2Y3Me9NMzuB98GbWrysqHf1otWYismm+vYFTRCEhXXjJrjkmSslLwHgi8vjxkoRKAL/J0BCSHAHGhjQgxHMwIKnY/Px+taNHd2/Bmg3p4wKuIH0Y1RQAB+ugDJxDgn0GQVMSMBmFJhDApSTYwLLQtR13xNAo0oWINS6ErXtpxInX0CmC3g1TURNkypQ+QL1IYG9hiFFRPIL8C8B/ybkO4bsFxH7Vcz+GLE/x5yBRL+LZDVQkTi2Ochn70dimQpFspKKi0AReAF/IVUTZ3/BGQAAAABJRU5ErkJggg=="></a>
+			<p>©</p>
+		</footer>
+	</div>
+</main>
+<header>
+	<div class="home"><a href="index.html"></a></div>
+	<ul class="table">
+		<li><a class="a" href="a"></a></li>
+		<li><a class="b" href="b"></a></li>
+		<li><a class="c" href="c"></a></li>
+		<li><a class="d" href="d"></a></li>
+	</ul>
+</header>
+</body>
+</html>
